@@ -1,76 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
 <head>
+    <title>نظم المعلومات الجغرافية</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>نظم النعلومات الجغرافية</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.rtl.min.css" rel="stylesheet">
     <style>
-        body {
-            background-color: #e6f7ff;
-            font-family: Arial;
-            margin: 20px;
+        .custom-summary {
+            cursor: pointer;
+            font-weight: bold;
         }
-        h1 {
-            color: blue;
-            text-align: center;
-        }
-        h2 {
-            color: green;
-        }
-        p {
-            font-size: 20px;
-        }
-        img {
-            display: block;
-            margin: auto;
-            width: 80%;
-            border: 2px solid blue;
-        }
-        .section {
-            background-color: white;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid gray;
-            text-align: center;
-        }
-        .List{
-            font-size: 20px;
-            list-style-type: upper-roman
-        }
-
     </style>
 </head>
-<body>
-    <h1>موقع نظم المعلومات الجغرافية</h1>
-    
-    <div class="section">
-        <h2>ما هي نظم المعلومات الجغرافية؟</h2>
-        <p>نظم المعلومات الجغرافية (GIS) هي أنظمة تساعدنا في فهم الخرائط والمعلومات المتعلقة بالأماكن.</p>
-        <img src="images.jpeg" alt="خريطة GIS" width="200" height="800">
-    </div>
-    
-    <div class="section">
-        <h2>فوائد نظم المعلومات الجغرافية</h2>
-        <ul class="List">
-            <li>تساعدنا في تحليل البيانات على الخرائط</li>
-            <li>تساعد في التخطيط للمدن</li>
-            <li>تساعد في مراقبة البيئة</li>
-            <li>تستخدم في التنبؤ بالكوارث الطبيعية</li>
-        </ul>
+<body class="bg-light">
+    <div class="container py-4">
+        <header class="text-center mb-4">
+            <h1 class="text-primary">مرحباً بكم في موقع نظم المعلومات الجغرافية</h1>
+        </header>
+        
+        <div class="card mb-4 bg-warning bg-opacity-25">
+            <div class="card-body">
+                <details>
+                    <summary class="custom-summary text-danger fs-4">ملخص عن نظم المعلومات الجغرافية</summary>
+                    <p class="mt-3">نظم المعلومات الجغرافية هي تقنية تساعدنا في تحليل وعرض المعلومات على الخرائط. تستخدم في العديد من المجالات مثل التخطيط العمراني، إدارة الموارد الطبيعية، التنبؤ بالكوارث، والتطبيقات الحكومية. هذا الموقع يقدم معلومات أساسية عن هذه التقنية المهمة.</p>
+                </details>
+            </div>
+        </div>
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="text-success">ما هي نظم المعلومات الجغرافية؟</h2>
+                <p>نظم المعلومات الجغرافية (GIS) هي أنظمة تساعدنا في فهم الخرائط والمعلومات المتعلقة بالأماكن.</p>
+                <div class="text-center">
+                    <img src="images.jpeg" alt="خريطة GIS" class="img-fluid border border-primary rounded">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card mb-4 bg-light">
+            <div class="card-body">
+                <details>
+                    <summary class="custom-summary text-success fs-4">فوائد نظم المعلومات الجغرافية</summary>
+                    <ul class="mt-3">
+                        <li>تساعدنا في تحليل البيانات على الخرائط</li>
+                        <li>تساعد في التخطيط للمدن</li>
+                        <li>تساعد في مراقبة البيئة</li>
+                        <li>تستخدم في التنبؤ بالكوارث الطبيعية</li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+        
+        <!-- برامج GIS -->
+        <div class="card mb-4 bg-light">
+            <div class="card-body">
+                <details>
+                    <summary class="custom-summary text-success fs-4">برامج نظم المعلومات الجغرافية الشهيرة</summary>
+                    <ul class="mt-3">
+                        <li>ArcGIS</li>
+                        <li>QGIS</li>
+                        <li>Google Earth</li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+        
 
-    </div>
-    
-    <div class="section">
-        <h2>برامج نظم المعلومات الجغرافية الشهيرة</h2>
-        <p>- ArcGIS</p>
-        <p>- QGIS</p>
-        <p>- Google Earth</p>
-    </div>
-    <details>
-        <summary>برامج نظم المعلومات الجغرافية الشهيرة</summary>
-        <p>- ArcGIS</p>
-        <p>- QGIS</p>
-        <p>- Google Earth</p>
-    </details>
+        <div class="card mb-4 bg-info bg-opacity-10">
+            <div class="card-body">
+                <h2 class="text-primary mb-4">اختبر معلوماتك في نظم المعلومات الجغرافية</h2>
+                <p class="mb-4">هذا الاختبار البسيط سيساعدك على فهم أساسيات نظم المعلومات الجغرافية. حاول الإجابة على الأسئلة التالية!</p>
+                
+                <form id="gisQuiz" class="quiz-form">
+  
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h3 class="h5 mb-0">السؤال 1: ما الفرق بين نظم المعلومات الجغرافية والخرائط التقليدية؟</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q1" id="q1a" value="a">
+                                <label class="form-check-label" for="q1a">
+                                    لا يوجد فرق، كلاهما يؤدي نفس الوظيفة
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q1" id="q1b" value="b">
+                                <label class="form-check-label" for="q1b">
+                                    الخرائط التقليدية رقمية بينما نظم المعلومات الجغرافية ورقية
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q1" id="q1c" value="c">
+                                <label class="form-check-label" for="q1c">
+                                    نظم المعلومات الجغرافية أنظمة تفاعلية تسمح بتحليل البيانات وربطها، بينما الخرائط التقليدية تمثيل ثابت للمعلومات
+                                </label>
+                            </div>
+                            <div class="collapse" id="answer1">
+                                <div class="card card-body mt-3 bg-success bg-opacity-10">
+                                    <p class="mb-0"><strong>الإجابة الصحيحة هي:</strong> نظم المعلومات الجغرافية أنظمة تفاعلية تسمح بتحليل البيانات وربطها، بينما الخرائط التقليدية تمثيل ثابت للمعلومات.</p>
+                                    <p>الخرائط التقليدية هي تمثيل ثابت للمعلومات المكانية، بينما نظم المعلومات الجغرافية هي أنظمة تفاعلية تسمح بتحليل البيانات وربطها ببعضها وإجراء استعلامات معقدة. يمكن لنظم المعلومات الجغرافية تخزين طبقات متعددة من البيانات وتحليلها بطرق لا يمكن للخرائط التقليدية القيام بها.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-sm btn-outline-primary check-answer" data-question="1" data-correct="c">تحقق من إجابتك</button>
+                        </div>
+                    </div>
+                    
+                    <!-- السؤال الثاني -->
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h3 class="h5 mb-0">السؤال 2: أي من هذه المهارات مطلوبة للعمل في مجال نظم المعلومات الجغرافية؟</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q2" id="q2a" value="a">
+                                <label class="form-check-label" for="q2a">
+                                    فهم المفاهيم الجغرافية الأساسية فقط 
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q2" id="q2b" value="b">
+                                <label class="form-check-label" for="q2b">
+                                    التصوير الفوتوغرافي الاحترافي
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q2" id="q2c" value="c">
+                                <label class="form-check-label" for="q2c">
+                                    استخدام برامج GIS ومعرفة بقواعد البيانات المكانية
+                                </label>
+                            </div>
+                            <div class="collapse" id="answer2">
+                                <div class="card card-body mt-3 bg-success bg-opacity-10">
+                                    <p class="mb-0"><strong>الإجابة الصحيحة هي:</strong> استخدام برامج GIS ومعرفة بقواعد البيانات المكانية.</p>
+                                    <p>للعمل في مجال نظم المعلومات الجغرافية، يحتاج الشخص إلى مزيج من المهارات تشمل فهم المفاهيم الجغرافية، القدرة على استخدام برامج GIS، معرفة بقواعد البيانات المكانية، مهارات في التحليل المكاني، ومهارات برمجة للتحليلات المتقدمة.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-sm btn-outline-primary check-answer" data-question="2" data-correct="c">تحقق من إجابتك</button>
+                        </div>
+                    </div>
+                    
+                    <!-- السؤال الثالث -->
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h3 class="h5 mb-0">السؤال 3: كيف يمكنني البدء في تعلم نظم المعلومات الجغرافية؟</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q3" id="q3a" value="a">
+                                <label class="form-check-label" for="q3a">
+                                    من خلال الدراسة الجامعية المتخصصة فقط
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q3" id="q3b" value="b">
+                                <label class="form-check-label" for="q3b">
+                                    تحميل برنامج QGIS المجاني واستكشاف واجهته ومتابعة دورات تعليمية عبر الإنترنت
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="q3" id="q3c" value="c">
+                                <label class="form-check-label" for="q3c">
+                                    لا يمكن تعلمها إلا من خلال وظيفة في شركة متخصصة
+                                </label>
+                            </div>
+                            <div class="collapse" id="answer3">
+                                <div class="card card-body mt-3 bg-success bg-opacity-10">
+                                    <p class="mb-0"><strong>الإجابة الصحيحة هي:</strong> تحميل برنامج QGIS المجاني واستكشاف واجهته ومتابعة دورات تعليمية عبر الإنترنت.</p>
+                                    <p>يمكنك البدء في تعلم نظم المعلومات الجغرافية من خلال تحميل برنامج QGIS المجاني، متابعة دورات تعليمية مجانية عبر الإنترنت، الاطلاع على الوثائق والأدلة المتاحة، البدء بمشاريع بسيطة، والانضمام إلى مجتمعات GIS على الإنترنت لطرح الأسئلة والتعلم من الآخرين.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-sm btn-outline-primary check-answer" data-question="3" data-correct="b">تحقق من إجابتك</button>
+                        </div>
+                    </div>
+                    
+                    <!-- السؤال الرابع -->
+                    <div class="card mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h3 class="h5 mb-0">السؤال 4: أي مما يلي يعتبر من مصادر البيانات المتاحة لنظم المعلومات الجغرافية؟</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" name="q4a" id="q4a">
+                                <label class="form-check-label" for="q4a">
+                                    صور الأقمار الصناعية
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" name="q4b" id="q4b">
+                                <label class="form-check-label" for="q4b">
+                                    بيانات GPS
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" name="q4c" id="q4c">
+                                <label class="form-check-label" for="q4c">
+                                    البيانات الإحصائية من التعدادات السكانية
+                                </label>
+                            </div>
+                            <div class="collapse" id="answer4">
+                                <div class="card card-body mt-3 bg-success bg-opacity-10">
+                                    <p class="mb-0"><strong>الإجابة الصحيحة هي:</strong> جميع الخيارات المذكورة صحيحة!</p>
+                                    <p>هناك العديد من مصادر البيانات المتاحة لنظم المعلومات الجغرافية، منها صور الأقمار الصناعية، بيانات GPS، البيانات الحكومية المفتوحة، عمليات المسح الميداني، بيانات OpenStreetMap، والبيانات الإحصائية من التعدادات السكانية والدراسات.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-sm btn-outline-primary check-multi-answer" data-question="4">تحقق من إجابتك</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        
+
+    <!-- روابط Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
